@@ -1,4 +1,6 @@
 <?php
+namespace XLSXReader;
+
 /*
 XLSXReader
 Greg Neustaetter <gneustaetter@gmail.com>
