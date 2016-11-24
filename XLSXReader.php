@@ -43,7 +43,7 @@ class XLSXReader {
 
 	public function __construct($filePath, $config = array()) {
 		$this->config = array_merge($this->config, $config);
-		$this->zip = new ZipArchive();
+		$this->zip = new \ZipArchive();
 		$status = $this->zip->open($filePath);
 		if($status === true) {
 			$this->parse();
