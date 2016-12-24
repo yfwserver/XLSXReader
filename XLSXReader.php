@@ -1,5 +1,7 @@
 <?php
 namespace XLSXReader;
+use \ZipArchive;
+use \Exception;
 
 /*
 XLSXReader
